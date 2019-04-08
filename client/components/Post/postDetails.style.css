@@ -1,0 +1,21 @@
+.title {
+  padding: 15px 0 10px;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+.postingTime {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  padding-bottom: 15px;
+}
+.content {
+  padding: 10px 0;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #333;
+  letter-spacing: .01em;
+  word-spacing: 0.15em;
+}

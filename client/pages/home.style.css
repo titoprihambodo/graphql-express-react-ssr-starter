@@ -1,0 +1,45 @@
+.wrap {
+  padding: 60px 15px;
+  display: flex;
+}
+.leftColumn {
+  flex: 1;
+  min-width: 420px;
+}
+.rightColumn {
+  flex: 1;
+  min-width: 420px;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeTitle {
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  padding: 20px 0;
+}
+.linkList {
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.12em;
+}
+.signupWrap {
+  padding: 30px 0;
+  max-width: 400px;
+}
+.contentLogo {
+  max-width: 180px;
+  margin: 20px 0;
+}
+.textLink {
+  color: #00b3ff;
+  text-decoration: none;
+}
+.textLink:hover {
+  color: #222;
+  cursor: pointer;
+  text-decoration: underline;
+}

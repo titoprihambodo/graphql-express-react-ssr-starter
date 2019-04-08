@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ApolloGraphQL Server] Mutation add post 1`] = `
+Object {
+  "post": null,
+}
+`;
+
+exports[`[ApolloGraphQL Server] Mutation user SignUp 1`] = `
+Object {
+  "data": Object {
+    "userByUsername": Object {
+      "email": "prihambodo.tito@gmail.com",
+      "username": "tito",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`[ApolloGraphQL Server] Queries get (me) by token 1`] = `
+Object {
+  "data": Object {
+    "me": null,
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`[ApolloGraphQL Server] Queries get post 1`] = `
+Object {
+  "data": Object {
+    "post": null,
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

@@ -1,0 +1,68 @@
+.postListWrap {
+  display: flex;
+  flex-direction: column;
+}
+.postItemWrap {
+  border: 1px solid #eee;
+  padding: 15px;
+  margin: 5px 0;
+  background: #fff;
+  border-radius: 5px;
+}
+.postItemWrap:hover {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.23);
+  background-color: #555;
+  border: 1px solid #555;
+}
+.postItemWrap:hover .postTitle{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
+}
+.postItemWrap:hover .timeStamp{
+  color: #f2f2f2;
+}
+.postTitle {
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+}
+.timeStamp {
+  font-size: 11px;
+  font-style: italic;
+  color: #777;
+  font-weight: 300;
+}
+.deleteButton {
+  z-index: 10;
+  background-color: #eee;
+  border: none;
+  padding: 3px 5px;
+  color: #555;
+  border-radius: 5px;
+}
+.deleteButton:hover {
+  cursor: pointer;
+  background-color: #ff5d5d;
+  color: #fff;
+}
+.moreButton {
+  flex: 1;
+  margin: 30px 15px;
+  padding: 20px;
+  justify-content: center;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background: #00b3ff;
+  border-radius: 5px;
+}
+.moreButton:hover {
+  cursor: pointer;
+  background: #0098d8;
+}
+.moreButton:focus {
+  outline: none;
+}

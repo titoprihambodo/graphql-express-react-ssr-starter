@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "Components/*": ["client/components/*"],
+      "Layouts/*": ["client/layouts/*"],
+      "Pages/*": ["client/pages/*"],
+      "Public/*": ["public/*"],
+      "Assets/*": ["public/assets/*"],
+    }
+  },
+  "exclude": ["node_modules", "dist", "build"]
+}
