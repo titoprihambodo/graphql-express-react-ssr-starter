@@ -28,8 +28,8 @@ A simple example / project starter using ExpressJS, GraphQL and ReactJS. Helps p
 Preparation :
 
     git clone https://github.com/titoprihambodo/graphql-express-react-ssr-starter
-    npm install
     cd graphql-express-react-ssr-starter/
+    npm install
 
 change server port and mongoDB URL in /config/index.js.
 start project (development) :
