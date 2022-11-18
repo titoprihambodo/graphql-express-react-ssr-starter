@@ -61,7 +61,7 @@
 		"file-loader": "^3.0.1",
 		"jest": "^24.6.0",
 		"jest-css-modules": "^1.1.0",
-		"jest-transform-css": "^2.0.0",
+		"jest-transform-css": "^6.0.0",
 		"mini-css-extract-plugin": "^0.5.0",
 		"nodemon": "^1.18.10",
 		"react-hot-loader": "^4.8.2",
